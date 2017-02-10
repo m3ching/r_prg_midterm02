@@ -1,0 +1,5 @@
+plot(women$height,women$weight,main="Average Heights and Weights for American Women", xlab="Height",ylab="Weight")
+plot(women$height,women$weight,main="Average Heights and Weights for American Women", xlab="Height",ylab="Weight", type="l")
+hist(rivers,main="Lengths of Major North American Rivers", xlab="Lengths")
+boxplot(women,main="Average Heights and Weights for American Women")
+barplot(table(factor(Orange$circumference)),main="Growth of Orange Trees", ylab="orange counts",xlab="circumference")
